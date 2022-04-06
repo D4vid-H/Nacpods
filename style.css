@@ -19,4 +19,22 @@ ul li{
     padding-right: 4%;
 }
 
-/*seccion encabezado*/
+/*seccion footer*/
+footer{
+    margin-top: 5%;
+    background-color: #91abb7;
+}
+.divFooterGral{
+    padding-bottom: 2%;
+}
+.footerTitulos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+.divFooterContacto{
+    display: flex;
+    justify-content: center;
+}
