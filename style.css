@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -11,13 +12,15 @@ nav div a img{
     height: 200px;
     margin-left: 50%;
 }
-ul {
+nav ul {
     margin-right: 10%;
 }
-ul li{
+nav ul li{
     font-size: 1.2rem;
     padding-right: 4%;
 }
+/*Seccion body*/
+
 
 /*seccion footer*/
 footer{
