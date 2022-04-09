@@ -20,7 +20,17 @@ nav ul li{
     padding-right: 4%;
 }
 /*Seccion body*/
+#destacado {
+    background-color: #ffffff;
+    border: none;
+}
+#destacado .card {
+    border: none;
+}
 
+.zindex{
+    z-index: 99;
+}
 
 /*seccion footer*/
 footer{
