@@ -42,6 +42,21 @@ nav ul li{
 .zindex{
     z-index: 99;
 }
+.transfor__skew__card1{
+    transform: skew(-0.06turn, 15deg) translate(-10px);
+}
+
+.transfor__skew__card2{
+    transform: skew(0.06turn, -15deg) translate(15px);
+}
+
+.transfor__skew__cardW26__uno{
+    transform: skew(-15deg) translate(-10px);
+}
+
+.transfor__skew__carousel{
+    transform: skew(202deg, 180deg) translate(-55px) scaleX(1.1);
+}
 
 /*seccion footer*/
 footer{
