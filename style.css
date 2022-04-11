@@ -12,13 +12,28 @@ nav div a img{
     height: 200px;
     margin-left: 50%;
 }
-nav ul {
+.nav-ul{
     margin-right: 10%;
 }
-nav ul li{
+.nav-li{
     font-size: 1.2rem;
     margin-right: 1%;
     background-color: #91abb7;
+}
+.nav-li-diferent{
+    font-size: 1.2rem;
+    margin-right: 1%;
+    background-color: #91abb7;
+    border-radius: 20%;
+}
+.ul-desplegable{
+    background-color: #91abb7;
+}
+.li-desplegable{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 /*carrusel principal*/
 .carruselTamaño{
@@ -29,6 +44,13 @@ nav ul li{
 .imgCarru{
     height: 80vh;
     width: 100%;
+}
+.tituloCarrusel{
+    color: black;
+    font-size: 1.5rem;
+}
+.parrafoCarrusel{
+    color: black;
 }
 /*Seccion body*/
 #destacado {
@@ -56,6 +78,10 @@ nav ul li{
 
 .transfor__skew__carousel{
     transform: skew(202deg, 180deg) translate(-55px) scaleX(1.1);
+}
+.img-W26:hover{
+    transform: scale(1.05);
+    transition: transform 2s;
 }
 
 /*seccion footer*/

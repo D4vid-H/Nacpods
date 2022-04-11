@@ -38,147 +38,135 @@
           class="collapse navbar-collapse justify-content-end"
           id="navbarNav"
         >
-          <ul class="navbar-nav">
+          <ul class="navbar-nav nav-ul">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">Home</a>
+              <a class="nav-link" aria-current="page" href="./index.html">Home</a>
             </li>            
             <li class="nav-item">
               <a class="nav-link" href="#destacado">Destacado</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">SmartWhatch</a>
+            <li class="nav-item dropdown nav-li">
+              <a class="nav-link dropdown-toggle" href="#smartwatch" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                smartwatch
+              </a>
+              <ul class="dropdown-menu ul-desplegable" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item li-desplegable" href="#smartWatchD20">D20</a></li>
+                <li><a class="dropdown-item li-desplegable" href="#smartWatchW26">W26</a></li>
+                <li><a class="dropdown-item li-desplegable" href="#smartWatchB57">B57</a></li>
+                <li><a class="dropdown-item" href="#smartWatchB59">B59</a></li>
+                <li><a class="dropdown-item" href="#dt100Plus">DT100 plus</a></li>
+              </ul>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">headeset</a>
+            <li class="nav-item dropdown nav-li">
+              <a class="nav-link dropdown-toggle" href="#headeset" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                headeset
+              </a>
+              <ul class="dropdown-menu ul-desplegable" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#inpods12">INPODS 12</a></li>
+                <li><a class="dropdown-item" href="#airDotsXiaomi">AIRDOTS</a></li>
+              </ul>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contacto</a>
+            <li class="nav-item nav-li-diferent">
+              <a class="nav-link" href="#contacto">Contacto</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-     <!--encabezado-->
-     <!--carrusel de imagenes 1-->
-    <div id="carruselNativo" class="carousel slide carruselTamaño" data-bs-ride="carousel"> 
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carruselNativo" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carruselNativo" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carruselNativo" data-bs-slide-to="2" aria-label="Slide 3"></button>
-      </div>
-      <!--imagenes carrusel-->
-      <div class="carousel-inner divImg"> 
-        <div class="carousel-item active">
-          <img src="./imagenes/DT100 plus/DT100 plus-3.jpg" class="d-block w-100 imgCarru" alt="smartwatch">
-        </div>  
-        <div class="carousel-item"> 
-          <img src="./imagenes/D20/smartwatch D20-2.jpg" class="d-block w-100 imgCarru" alt="smartwatch">
+    <!--encabezado-->
+    <!--carrusel de imagenes 2-->
+    <header>
+      <div
+      id="carouselExampleCaptions"
+      class="carousel slide carruselTamaño"
+      data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+          ></button>
+          <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+          ></button>
+          <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+            src="./imagenes/DT100 plus/DT100 plus-3.jpg"
+            class="d-block w-100 img-fluid imgCarru"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="tituloCarrusel">DT100 plus</h5>
+            <p class="parrafoCarrusel">
+            Some representative placeholder content for the first slide.
+            </p>
+          </div>
         </div>
         <div class="carousel-item">
-          <img src="./imagenes/D20/smartwatch D20-3.jpg" class="d-block w-100 imgCarru" alt="smartwatch">
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carruselNativo" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carruselNativo" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-    <!--carrusel de imagenes 2-->
-    <!-- <header>
-    <div
-    id="carouselExampleCaptions"
-    class="carousel slide carruselTamaño"
-    data-bs-ride="carousel"
-    >
-    <div class="carousel-indicators">
-      <button
-        type="button"
-        data-bs-target="#carouselExampleCaptions"
-        data-bs-slide-to="0"
-        class="active"
-        aria-current="true"
-        aria-label="Slide 1"
-      ></button>
-      <button
-        type="button"
-        data-bs-target="#carouselExampleCaptions"
-        data-bs-slide-to="1"
-        aria-label="Slide 2"
-      ></button>
-      <button
-        type="button"
-        data-bs-target="#carouselExampleCaptions"
-        data-bs-slide-to="2"
-        aria-label="Slide 3"
-      ></button>
-    </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active imgCarru">
-        <img
-          src="./imagenes/DT100 plus/DT100 plus-1.jpg"
-          class="d-block w-100 img-fluid"
+          <img
+          src="./imagenes/D20/smartwatch D20-2.jpg"
+          class="d-block w-100 img-fluid imgCarru"
           alt="..."
-        />
-        <div class="carousel-caption d-none d-md-block">
-          <h5>First slide label</h5>
-          <p>
-            Some representative placeholder content for the first slide.
-          </p>
-        </div>
-      </div>
-      <div class="carousel-item imgCarru">
-        <img
-          src="./imagenes/DT100 plus/DT100 plus-2.jpg"
-          class="d-block w-100 img-fluid"
-          alt="..."
-        />
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Second slide label</h5>
-          <p>
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="tituloCarrusel">SMARTWATCH D20</h5>
+            <p class="parrafoCarrusel">
             Some representative placeholder content for the second slide.
-          </p>
+            </p>
+          </div>
         </div>
-      </div>
-      <div class="carousel-item imgCarru">
-        <img
-          src=".//imagenes/DT100 plus/DT100 plus-3.jpg"
-          class="d-block w-100 img-fluid"
+        <div class="carousel-item">
+          <img
+          src="./imagenes/D20/smartwatch D20-3.jpg"
+          class="d-block w-100 img-fluid imgCarru"
           alt="..."
-        />
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Third slide label</h5>
-          <p>
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="tituloCarrusel">SMARTWATCH D20</h5>
+            <p class="parrafoCarrusel">
             Some representative placeholder content for the third slide.
-          </p>
+            </p>
+          </div>
         </div>
       </div>
-    </div>
-    <button
+      <button
       class="carousel-control-prev"
       type="button"
       data-bs-target="#carouselExampleCaptions"
       data-bs-slide="prev"
-    >
+      >
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Previous</span>
-    </button>
-    <button
+      </button>
+      <button
       class="carousel-control-next"
       type="button"
       data-bs-target="#carouselExampleCaptions"
       data-bs-slide="next"
-    >
+      >
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Next</span>
-    </button>
-    </div>
-    </header> -->
+      </button>
+    </header>
     <!--producto destacado-->
+
     <main>
+      <!--SMARTWATCH D20-->
       <section id="smartWatchD20" class=" mb-4">        
         <div class="container py-3">
           <div class="title h1 text-center text-uppercase">SMARTWATCH D20</div>
@@ -350,6 +338,7 @@
           </div>
       </section>
 
+      <!--SMARTWATCH W26-->
       <section id="smartWatchW26">
         <h2 class="text-center">SMARTWATCH W26</h2>
         <div class="container">
@@ -393,10 +382,10 @@
             </div>
           </div>
           <div class="row mb-5">
-            <div class="col-md-3"><img src="./imagenes/W26/smartwatch W26-1.jpg" alt="" class="d-block w-100 rounded transfor__skew__cardW26__uno"></div>
-            <div class="col-md-3"><img src="./imagenes/W26/smartwatch W26-2.jpg" alt="" class="d-block w-100 rounded transfor__skew__cardW26__uno"></div>
-            <div class="col-md-3"><img src="./imagenes/W26/W26-2.jpeg" alt="" class="d-block w-100 rounded transfor__skew__cardW26__uno"></div>
-            <div class="col-md-3"><img src="./imagenes/W26/W26-3.jpg" alt="" class="d-block w-100 rounded transfor__skew__cardW26__uno"></div>
+            <div class="col-md-3 img-W26"><img src="./imagenes/W26/smartwatch W26-1.jpg" alt="" class="d-block w-100 rounded transfor__skew__cardW26__uno"></div>
+            <div class="col-md-3 img-W26"><img src="./imagenes/W26/smartwatch W26-2.jpg" alt="" class="d-block w-100 rounded transfor__skew__cardW26__uno"></div>
+            <div class="col-md-3 img-W26"><img src="./imagenes/W26/W26-2.jpeg" alt="" class="d-block w-100 rounded transfor__skew__cardW26__uno"></div>
+            <div class="col-md-3 img-W26"><img src="./imagenes/W26/W26-3.jpg" alt="" class="d-block w-100 rounded transfor__skew__cardW26__uno"></div>
           </div>
 
           <!-- Modal -->
@@ -514,7 +503,7 @@
         </div>
         
       </section>
-
+      <!--SMARTWATCH W26-->
       <section id="smartWatchW26" class="container">
         <h2 class="text-center">SMARTWATCH W26</h2>
         <div class="card bg-dark text-black">
@@ -660,6 +649,7 @@
         </div>
       </section>
 
+      <!--SMARTWATCH B57-->
       <section id="smartWatchB57" class="container">
         <h2 class="text-center">SMARTWATCH B57</h2>
         <div class="card bg-dark text-black">
@@ -764,6 +754,7 @@
         </div>
       </section>
 
+      <!--SMARTWATCH B59-->
       <section id="smartWatchB59" class="container">
         <h2 class="text-center">SMARTWATCH B59</h2>
         <div class="card bg-dark text-black">
@@ -866,6 +857,7 @@
         </div>
       </section>
 
+      <!--SMARTWATCH DT100 PLUS-->
       <section id="dt100Plus" class="container">
         <h2 class="text-center">DT100 PLUS</h2>
         <div class="card bg-dark text-black">
@@ -975,6 +967,7 @@
         </div>
       </section>
 
+      <!--AIRDOTS XIAOMI-->
       <section id="airDotsXiaomi" class="container">
         <h2 class="text-center">AIRDOTS XIAOMI</h2>
         <div class="card bg-dark text-black">
@@ -1057,6 +1050,7 @@
         </div>
       </section>
 
+      <!--INPODS 12-->
       <section id="inpods12" class="container">
         <h2 class="text-center">INPODS 12</h2>
         <div class="card bg-dark text-black">
@@ -1144,7 +1138,7 @@
         <div class="row">
           <!--CONTACTO-->
           <div class="col-12 col-sm-4 flexElementFooter">
-            <h2 class="titFooter">CONTACTO</h2>
+            <h2 class="titFooter" id="contacto">CONTACTO</h2>
             <div class="divFooterContacto">
               <!--icono wpp-->
               <svg
