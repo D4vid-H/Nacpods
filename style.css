@@ -77,11 +77,11 @@ nav div a img{
 }
 
 .transfor__skew__carousel{
-    transform: skew(202deg, 180deg) translate(-55px) scaleX(1.1);
+    transform: skew(202deg, 180deg) translate(-165px) scaleX(1.1);
 }
 .img-W26:hover{
-    transform: scale(1.05);
-    transition: transform 2s;
+    transform: scale(1.08);
+    transition: transform 500ms;
 }
 
 /*seccion footer*/
