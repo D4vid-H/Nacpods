@@ -18,13 +18,7 @@ nav div a img {
 .nav-li {
   font-size: 1.2rem;
   margin-right: 1%;
-  background-color: #91abb7;
-}
-.nav-li-diferent {
-  font-size: 1.2rem;
-  margin-right: 1%;
-  background-color: #91abb7;
-  border-radius: 20%;
+  font-weight: bold;
 }
 .ul-desplegable {
   background-color: #91abb7;
