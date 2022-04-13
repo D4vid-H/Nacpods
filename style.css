@@ -4,7 +4,7 @@
   font-family: "Raleway", sans-serif;
 }
 body {
-  background-color: darkgray;
+  background-color: rgba(250, 250, 250, 0.872);
 }
 /*seccion navegacion*/
 nav div a img {
@@ -53,43 +53,15 @@ nav div a img {
   color: black;
 }
 /*Seccion body*/
-#destacado {
-  background-color: #ffffff;
-  border: none;
-}
-#destacado .card {
-  border: none;
-}
-.cardBg{
-    background: #bdc3c7;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
 
 .zindex {
   z-index: 99;
-}
-.transfor__skew__card1 {
-  transform: skew(-15deg, 15deg) translate(-10px) scale(0.8);
-}
-.transfor__skew__card1:hover {
-  transform: skew(-15deg, 15deg) translate(-10px) scale(1.1);
-}
-
-.transfor__skew__card2 {
-  transform: skew(15deg, -15deg) translate(-15px) scale(0.8);
-}
-.transfor__skew__card2:hover {
-  transform: skew(15deg, -15deg) translate(-15px) scale(1.1);
 }
 
 .transfor__skew__cardW26__uno {
   transform: skew(-15deg) translate(-10px);
 }
 
-.transfor__skew__carousel {
-  transform: skew(202deg, 180deg) translate(-165px) scaleX(1.1);
-}
 .img-W26:hover {
   transform: scale(1.08);
   transition: transform 500ms;
