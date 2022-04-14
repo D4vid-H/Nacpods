@@ -36,15 +36,16 @@ nav div a img {
   margin: 0 auto;
 }
 .imgCarru {
-  height: 80vh;
+  object-fit: cover;
+  height: 30rem;
   width: 100%;
 }
 .tituloCarrusel {
-  color: black;
+  color: #fff;
   font-size: 1.5rem;
 }
 .parrafoCarrusel {
-  color: black;
+  color: #fff;
 }
 /*Seccion body*/
 
