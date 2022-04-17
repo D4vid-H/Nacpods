@@ -8,9 +8,9 @@ body {
 }
 /*seccion navegacion*/
 nav div a img {
-  width: 200px;
-  height: 200px;
-  margin-left: 50%;
+  width: 150px;
+  height: 150px;
+  margin-left: 20%;
 }
 .nav-ul {
   margin-right: 10%;
@@ -21,14 +21,16 @@ nav div a img {
   font-weight: bold;
 }
 .ul-desplegable {
-  background-color: #91abb7;
+  /* background-color: #91abb7; */
+  border: none;
 }
-.li-desplegable {
+/* .li-desplegable {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
+} */
+
 /*carrusel principal*/
 .carruselTamaño {
   height: 80vh;
