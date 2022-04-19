@@ -85,6 +85,9 @@ footer {
   font-size: 1.4rem;
 }
 .icono {
-  height: 20px;
-  width: 20px;
+  height: 25px;
+  width: 25px;
+}
+.pFooter{
+  font-size: 1.2rem;
 }
