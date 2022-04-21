@@ -55,6 +55,10 @@ nav div a img {
   z-index: 99;
 }
 
+.title{
+  font-family: 'Caveat', cursive;
+}
+
 .transfor__skew__cardW26__uno {
   transform: skew(-15deg) translate(-10px);
 }
