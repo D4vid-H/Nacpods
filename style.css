@@ -32,21 +32,25 @@ nav div a img {
   margin: 0 auto;
 }
 .imgCarru {
-  object-fit: cover;
+  object-fit: contain;
   height: 30rem;
   width: 100%;
 }
 .tituloCarrusel {
-  color: #fff;
+  color: #000;
   font-size: 1.5rem;
 }
 .parrafoCarrusel {
-  color: #fff;
+  color: #000;
 }
 /*Seccion body*/
 
 .zindex {
   z-index: 99;
+}
+
+.bg-blue{
+  background-color: #3bb6f2;
 }
 
 .title{
